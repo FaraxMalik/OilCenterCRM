@@ -5,8 +5,8 @@ import java.sql.SQLException;
 public class DBConnection {
 
     private static final String URL = "jdbc:mysql://crm.cj8wgw6c6hal.ap-south-1.rds.amazonaws.com:3306/CRM?zeroDateTimeBehavior=CONVERT_TO_NULL&encrypt=true&trustServerCertificate=true";
-    private static final String USER = "####";   // get User + Password from Group discription
-    private static final String PASSWORD = "####";
+    private static final String USER = "admin";   // get User + Password from Group discription
+    private static final String PASSWORD = "awscrmscd";
 
     public static Connection getConnection() throws ClassNotFoundException {
         Connection conn = null;
