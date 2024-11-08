@@ -4,11 +4,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-
-    private static final String URL = "jdbc:mysql://crm.cj8wgw6c6hal.ap-south-1.rds.amazonaws.com:3306/CRM?zeroDateTimeBehavior=CONVERT_TO_NULL&encrypt=true&trustServerCertificate=true";
-    private static final String USER = "admin";   // get User + Password from Group discription
-    private static final String PASSWORD = "awscrmscd";
-
+   private static final String URL = "jdbc:mysql://srv1553.hstgr.io:3306/u628307016_CRM";
+    private static final String USER = "u628307016_admin";
+    private static final String PASSWORD = "Afhcrmscd12*";
     public static Connection getConnection() throws ClassNotFoundException {
         Connection conn = null;
         try {
