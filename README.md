@@ -220,15 +220,11 @@ Connection conn = DBConnection.getConnection();
    - Verify username and password
    - Check user privileges for the database
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📞 Contact
 
 **Farax Malik**
 - GitHub: [@FaraxMalik](https://github.com/FaraxMalik)
-- Email: [your-email@example.com]
+- Email: [Farazmaliknu@gmail.com]
 - Project Link: [https://github.com/FaraxMalik/OilCenterCRM](https://github.com/FaraxMalik/OilCenterCRM)
 
 ---
